@@ -1,17 +1,23 @@
-1. First install vim
+### 1. First install vim
 
-`sudo apt install vim-gnome`
+```
+sudo apt install vim-gnome
+```
 
-2. Make sure the version of vim you installed can copy to clipboard
+### 2. Make sure the version of vim you installed can copy to clipboard
 
-`vim`
-`:echo has('clipboard')`
+```
+vim
+:echo has('clipboard')
+```
 
-3. Navigate to your home dir and clone this repo
+### 3. Navigate to your home dir and clone this repo
 
-`cd ~`
-`git clone --recurse-submodules https://github.com/reflashed/.vim`
+```
+cd ~
+git clone --recurse-submodules https://github.com/reflashed/.vim
+```
 
-Remember to use the `--recurse-submodules` flag bc the pathogen bundles are just git repos themselves
+Remember to use the `--recurse-submodules` flag because the pathogen bundles are just git repos themselves
 
-4. Now you are ready to `vim`!
+### 4. Now you are ready to `vim`

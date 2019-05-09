@@ -1,8 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/jenniferljin'
-let g:netrw_dirhist_2='/Users'
-let g:netrw_dirhist_3='/Users/jenniferljin'
-let g:netrw_dirhist_4='/Users/jenniferljin/.vim'
-let g:netrw_dirhist_5='/home/david/.vim/bundle'
-let g:netrw_dirhist_6='/home/david/.vim'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/david/.vim/autoload'
+let g:netrw_dirhist_2='/home/david/.vim'
+let g:netrw_dirhist_3='/home/david/.vim/bundle'
+let g:netrw_dirhist_4='/home/david/.vim/bundle/vim-vinegar'
