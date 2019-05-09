@@ -11,6 +11,8 @@ vim
 :echo has('clipboard')
 ```
 
+This should output `1` if vim can copy to system clipboard
+
 ### 3. Navigate to your home dir and clone this repo
 
 ```
