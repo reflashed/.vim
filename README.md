@@ -10,4 +10,8 @@
 3. Navigate to your home dir and clone this repo
 
 `cd ~`
-`git clone https://github.com/reflashed/.vim`
+`git clone --recurse-submodules https://github.com/reflashed/.vim`
+
+Remember to use the `--recurse-submodules` flag bc the pathogen bundles are just git repos themselves
+
+4. Now you are ready to `vim`!
