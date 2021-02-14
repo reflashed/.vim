@@ -39,5 +39,7 @@ We use [pathogen](https://github.com/tpope/vim-pathogen) to install vim plugins.
 
 e.g.
 
-```cd ~/.vim/bundle
-git submodule add https://github.com/tpope/vim-surround```
+```
+cd ~/.vim/bundle
+git submodule add https://github.com/tpope/vim-surround
+```
