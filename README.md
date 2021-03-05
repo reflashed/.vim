@@ -43,3 +43,9 @@ e.g.
 cd ~/.vim/bundle
 git submodule add https://github.com/tpope/vim-surround
 ```
+
+# Problems
+
+Vim not extending background color to the whole screen:
+  - https://serverfault.com/questions/268555/how-to-tell-vim-to-extend-the-background-color-to-the-whole-screen
+  - I added this to my vimrc
