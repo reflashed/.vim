@@ -24,6 +24,14 @@ git clone --recurse-submodules https://github.com/reflashed/.vim
 
 Remember to use the `--recurse-submodules` flag because the pathogen bundles are just git repos themselves
 
+If you forget to clone the repository recursively, you can just run
+
+```
+git submodule update --init
+```
+
+from within the submodule repository you need to download.
+
 ## 4. Now you are ready to `vim`
 
 # Learning vim
