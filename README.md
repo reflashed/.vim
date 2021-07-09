@@ -28,6 +28,8 @@ if executable(s:clip)
 endif
 ```
 
+You may also get slow load times if the version of vim you are using has the clipboard enabled, you have the `DISPLAY` env variable set, and you do not have an X11 server running. To fix this, either run an X11 server with the `DISPLAY` environmental variable pointing to it or unset the `DISPLAY` variable. More info can be found [here](https://github.com/microsoft/WSL/issues/5223#issuecomment-652309457).
+
 ## 3. Navigate to your home dir and clone this repo
 
 ```
