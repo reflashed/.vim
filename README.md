@@ -15,6 +15,19 @@ vim
 
 This should output `1` if vim can copy to system clipboard
 
+### If you are using Windows WSL2, you must further add the following to your .vimrc to enable copying from vim to Windows
+
+```
+" WSL yank support
+let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
+if executable(s:clip)
+    augroup WSLYank
+        autocmd!
+        autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
+    augroup END
+endif
+```
+
 ## 3. Navigate to your home dir and clone this repo
 
 ```
