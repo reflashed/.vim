@@ -67,6 +67,8 @@ cd ~/.vim/bundle
 git submodule add https://github.com/tpope/vim-surround
 ```
 
+You can find pathogen versions of pretty much any vim plugin on [VimAwesome](https://vimawesome.com/).
+
 # Problems
 
 Vim not extending background color to the whole screen:
