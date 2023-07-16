@@ -3,7 +3,7 @@
 ## 1. First install vim
 
 ```
-sudo apt install vim-gnome
+sudo apt install vim-gtk3
 ```
 
 ## 2. Make sure the version of vim you installed can copy to clipboard
