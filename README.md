@@ -37,6 +37,13 @@ cd ~
 git clone --recurse-submodules https://github.com/reflashed/.vim
 ```
 
+Or if you want to make changes to this repo:
+
+```
+cd ~
+git clone --recurse-submodules git@github.com:reflashed/.vim.git
+```
+
 Remember to use the `--recurse-submodules` flag because the pathogen bundles are just git repos themselves
 
 If you forget to clone the repository recursively, you can just run
