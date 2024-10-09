@@ -1,12 +1,21 @@
 # Getting Started
 
-## 1. First install vim
+## 1. To make sure vim 9 is available, do this:
+
+```
+sudo add-apt-repository ppa:jonathonf/vim
+sudo apt update
+```
+
+This PPA typically contains newer versions of Vim, including Vim 9. After adding the PPA, try to install vim-gtk3 again:
+
+## 2. First install vim
 
 ```
 sudo apt install vim-gtk3
 ```
 
-## 2. Make sure the version of vim you installed can copy to clipboard
+## 3. Make sure the version of vim you installed can copy to clipboard
 
 ```
 vim
@@ -30,7 +39,7 @@ endif
 
 You may also get slow load times if the version of vim you are using has the clipboard enabled, you have the `DISPLAY` env variable set, and you do not have an X11 server running. To fix this, either run an X11 server with the `DISPLAY` environmental variable pointing to it or unset the `DISPLAY` variable. More info can be found [here](https://github.com/microsoft/WSL/issues/5223#issuecomment-652309457).
 
-## 3. Navigate to your home dir and clone this repo
+## 4. Navigate to your home dir and clone this repo
 
 ```
 cd ~
@@ -54,7 +63,16 @@ git submodule update --init
 
 from within the submodule repository you need to download.
 
-## 4. Now you are ready to `vim`
+## 5. Install tsserver
+
+In your vim/neovim, run command:
+
+```
+:CocInstall coc-tsserver
+```
+
+
+## 6. Now you are ready to `vim`
 
 # Learning vim
 
