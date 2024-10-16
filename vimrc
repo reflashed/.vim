@@ -24,3 +24,6 @@ inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>
 "   Use <Tab> and <S-Tab> to navigate the completion list:
 inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#next(1) : "\<Tab>"
 inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
+
+" https://vi.stackexchange.com/questions/21774/open-coc-definition-in-new-split-in-coc
+nmap <silent> gd <Plug>(coc-definition)
